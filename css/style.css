@@ -74,7 +74,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url("image/Home.png");
+    background: url("/image/Home.png");
     background-size: cover;
     background-position: center;
 }
@@ -225,7 +225,7 @@ section {
 
 .home-imgHover:hover {
     background: var(--bg-color);
-    background-image: url("image/dina1.png");
+    background-image: url("/image/dina1.png");
     background-size: cover;
     background-position: center;
     /* opacity: .8; */
