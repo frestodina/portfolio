@@ -29,6 +29,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
 }
 .logo {
     font-size: 2.5rem;
@@ -44,6 +45,9 @@ html {
     padding: 2rem;
     text-align: center;
     color: var(--main-color);
+}
+.container h3 {
+    visibility: hidden;
 }
 span {
     color: var(--text-color);
@@ -126,4 +130,27 @@ span {
 }
 .footer-iconTop a:hover i {
     color: var(--main-color);
+}
+
+
+@media (max-width: 1200px) {
+    .container h1 {
+        font-size: 3rem;
+    }
+    .container h3 {
+    visibility: visible;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+    color: var(--main-color);
+    }
+}
+
+@media (max-width: 371px) {
+    .container h1 {
+        font-size: 40px;
+    }
+    .container h3 {
+    font-size: 15px;
+    }
 }
